@@ -373,6 +373,7 @@ input::placeholder{
     .link3{
         padding-top: 16px;
     }
+
     /*2ND SECTION*/
     .nav button{
         width: 100px;
@@ -381,7 +382,8 @@ input::placeholder{
     
     
     .nav2{
-        height: 100px;
+        margin-top: 20px;
+        height: 80px;
         width: 100%;
         margin-top: 10px;
         background-color:  #1F7FB2;
@@ -389,7 +391,7 @@ input::placeholder{
     
     .boxes{
         display: flex;  
-        padding-top: 50px;
+        padding-top: 30px;
         margin-left: 0px;
     }
     
@@ -408,7 +410,7 @@ input::placeholder{
     line-height: 18px;
     margin-left: 50px;
     text-transform: capitalize;
-    
+    margin-left: 30px;
     color: #FFFFFF;
     
     }
@@ -427,14 +429,9 @@ input::placeholder{
     line-height: 18px;
     margin-left: 50px;
     }
-    
+   
     .leftSide{
-    width:50px;
-    height: 40px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    background-image: url(Ellipse\ 9.png);
-    background-color: blue;
-    display: none;
+      display: none;
     }
     
     .leftSide h1{
@@ -450,6 +447,10 @@ input::placeholder{
     margin-top: 25px;
     }
 
+    .body{
+        margin-top: 55px;
+        margin-bottom: 24px;
+    }
 
     .section1{
         margin-left: 0px;
@@ -461,7 +462,7 @@ input::placeholder{
         font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 0px;
     color: rgba(0, 0, 0, 0.6);
     }
@@ -470,13 +471,13 @@ input::placeholder{
         font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;    
+    font-size: 14px;
+    line-height: 20px;    
     color: rgba(64, 63, 63, 0.6);
     }
     
     .form{
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .formTitle{
         font-family: Open Sans;
@@ -498,7 +499,11 @@ input::placeholder{
     .reg button{
         height: 41px;
         width: 300px;
-        margin-left: 50px;
+        margin-left: 30px;
+    }
+
+    .check{
+        margin-top: -10px;
     }
     
     .check p{
@@ -507,7 +512,7 @@ input::placeholder{
         font-family: Open Sans;
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 15px;
         /* identical to box height */
         
@@ -525,7 +530,7 @@ input::placeholder{
         font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 10px;
     }
     
@@ -554,6 +559,7 @@ input::placeholder{
         padding-left: 10px;
     }
     
+
     
 
 }
