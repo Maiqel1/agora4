@@ -365,15 +365,33 @@ input::placeholder{
 
     ul.nav-links.active li{
         margin-top: -25px;
+        margin-left: -300px;
+
+    } 
+    ul.nav-links.active li a{
+      font-size: 16px;
+
+    } 
+
+    
+    ul.nav-links.active button{
+        margin-left: -300px;
+        width: 85px;
+        height: 28px;
+        margin-bottom: 2px;
+        
     }
+
 
     .link2{
         padding-top: 16px;
+       
     }
     .link3{
         padding-top: 16px;
     }
 
+    
     /*2ND SECTION*/
     .nav button{
         width: 100px;
